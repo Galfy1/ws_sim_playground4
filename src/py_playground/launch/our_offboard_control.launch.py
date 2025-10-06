@@ -42,5 +42,41 @@ def generate_launch_description():
             parameters=[
                 {'instance_id': 3}
             ]
+        ),
+        # Node(
+        #     package='py_playground',
+        #     namespace=namespace,
+        #     executable='our_offboard_control',
+        #     name='drone_4',
+        #     parameters=[
+        #         {'instance_id': 4}
+        #     ]
+        # ),
+        # Node(
+        #     package='py_playground',
+        #     namespace=namespace,
+        #     executable='our_offboard_control',
+        #     name='drone_5',
+        #     parameters=[
+        #         {'instance_id': 5}
+        #     ]
+        # ),
+        # Node(
+        #     package='py_playground',
+        #     namespace=namespace,
+        #     executable='our_offboard_control',
+        #     name='drone_6',
+        #     parameters=[
+        #         {'instance_id': 6}
+        #     ]
+        # ),
+        # Node(
+        #     package='py_playground',
+        #     namespace=namespace,
+        #     executable='our_offboard_control',
+        #     name='drone_7',
+        #     parameters=[
+        #         {'instance_id': 7}
+        #     ]
         )
     ])
